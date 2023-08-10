@@ -1,0 +1,69 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    padding: 10px;
+}
+.enlace{
+    background-color: rgba(255, 0, 0, .5 );
+    padding: 4px;
+}
+/***********************************************************************/
+.seccionTipos{
+    border: 2px solid green;
+    height: 700px;
+}
+.cards{
+    border: 2px solid red;
+    display: flex;
+    position: relative;
+    margin:25px
+}
+.carta{
+    width: 5.9cm;
+    background-color: blueviolet;
+    position: relative;
+
+}
+
+img{
+    /*border: 2px solid violet;*/
+    width: 100%;
+}
+.trampa{
+    z-index: 5;
+    border: solid violet 2px;
+    
+    rotate:10deg;
+}
+.magia{
+    z-index: 10;
+    border: solid mediumaquamarine 2px;
+    right: 4cm;
+    top: .5cm;
+    rotate:20deg;
+}
+.vaini{
+    z-index: 20;
+    border: solid yellow 2px;
+    right:8cm;
+    top: 1.5cm;
+    rotate:30deg;
+}
+.effect{
+    z-index: 30;
+    border: solid rgb(255, 123, 0) 2px;
+    right:12cm;
+    top: 3cm;
+    rotate:40deg;
+}
+.ritual{
+    z-index: 40;
+    border: solid rgb(0, 21, 255) 2px;
+    right:16.5cm;
+    top: 4.5cm;
+    rotate:50deg;
+}
+/*****************************************************************/
+
+

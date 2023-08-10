@@ -1,0 +1,63 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.contenedor{
+    max-width: 16cm;
+    height: 7cm;
+    background-color: red;
+    margin-bottom: 10cm;
+}
+
+.pantalla, .botones{
+    display: flex;
+}
+/***********************************************/
+.pantalla{
+    height: 83%;
+}
+.individual{
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 7px;
+    border: 3px solid blue;
+    background-image: url(/Nueva\ imagen\ de\ mapa\ de\ bits\ -\ copia.bmp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /*flex: 1;*/
+    width: 33.3%;
+}
+.individual:hover{
+    border-color: yellow;
+    
+    
+}
+.numero, .nombreJugador{
+    font-weight: bold;
+    color: yellow;
+    
+}
+.nombreJugador{
+    height: 30%;
+    font-size: 5vw;
+}
+
+.numero{
+    text-align: center;
+    margin: 0;
+    font-size: 8vw;
+}
+/***********************************************/
+.botones{
+    flex-direction: row;
+    height: 16%;
+}
+.boton{
+box-sizing: border-box;
+border: 4px outset gray;
+padding: 5.8px;
+font-weight: bold;
+text-align: center;
+}
+/***********************************************/

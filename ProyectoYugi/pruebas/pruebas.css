@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contenedorBorrar{
+  display: flex;
+}
+.boton2{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 10px solid darkred;
+  background-color: red;
+  margin: 10px;
+  text-align: center;
+  font-size: 25px;
+  padding: 5px;
+}
+/*********************************************************************************************/
+/*********************************************************************************************/
+/*********************************************************************************************/
+.rankingActivo {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin: 5px;
+  padding: 20px;
+  background-color: black;
+  width: 300px;
+  border-radius: 10px;
+  border: 5px solid red;
+  overflow: hidden;
+  transition: 1.5s;
+
+}
+.seccion_individual_ranking{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+.detalles{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  color: white;
+  padding: 3px; 
+}
+.detalles p:first-child{
+  font-size: 30px;
+}
+.detalles p:nth-child(2){
+  font-size: 20px;
+}
+.foto{
+  width: 30%;
+}
+/*********************************************************************************************/
+.versusActivo {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin: 5px;
+  padding: 20px;
+  background-color: black;
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  border: 5px solid red;
+  overflow: hidden;
+
+}
+.seccion_individual_pvp{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+.cajaBlanca{
+  display: inline-flex;
+  flex-direction: column;
+  width: 50%;
+  box-sizing: border-box;
+  background-color: gray;
+  text-align: center;
+}
+.h2_versus{
+  width: auto;
+  height: 96px;
+  position: absolute;
+  z-index: 10;
+}
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+.nombreJugadorInvividual{ 
+  width: 10%; 
+}
+.fotoJugadorIndividual{
+  height: 100px;
+  object-fit: cover;
+  object-position: top;
+}
+
+
+
+
+
+
+
+
+
+
+
+/**********PROYECTO APARECER DESDE UN LADO IZQUIERDO**************/
+/*<div class="animated bounceInLeft">Example</div>*/
+@-webkit-keyframes bounceInLeft {
+    from, 60%, 75%, 90%, to {
+      -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+  
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(-3000px, 0, 0);
+      transform: translate3d(-3000px, 0, 0);
+    }
+  
+    60% {
+      opacity: 1;
+      -webkit-transform: translate3d(25px, 0, 0);
+      transform: translate3d(25px, 0, 0);
+    }
+  
+    75% {
+      -webkit-transform: translate3d(-10px, 0, 0);
+      transform: translate3d(-10px, 0, 0);
+    }
+  
+    90% {
+      -webkit-transform: translate3d(5px, 0, 0);
+      transform: translate3d(5px, 0, 0);
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  @keyframes bounceInLeft {
+    from, 60%, 75%, 90%, to {
+      -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+  
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(-3000px, 0, 0);
+      transform: translate3d(-3000px, 0, 0);
+    }
+  
+    60% {
+      opacity: 1;
+      -webkit-transform: translate3d(25px, 0, 0);
+      transform: translate3d(25px, 0, 0);
+    }
+  
+    75% {
+      -webkit-transform: translate3d(-10px, 0, 0);
+      transform: translate3d(-10px, 0, 0);
+    }
+  
+    90% {
+      -webkit-transform: translate3d(5px, 0, 0);
+      transform: translate3d(5px, 0, 0);
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  .bounceInLeft {
+    -webkit-animation-name: bounceInLeft;
+    animation-name: bounceInLeft;
+  }
+  .animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+/*****************************************************************/
+/**********PROYECTO APARECER DESDE UN LADO DERECHO*************/
+/*<div class="animated bounceInRight">Example</div>*/
+@-webkit-keyframes bounceInRight {
+    from, 60%, 75%, 90%, to {
+      -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+  
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(3000px, 0, 0);
+      transform: translate3d(3000px, 0, 0);
+    }
+  
+    60% {
+      opacity: 1;
+      -webkit-transform: translate3d(-25px, 0, 0);
+      transform: translate3d(-25px, 0, 0);
+    }
+  
+    75% {
+      -webkit-transform: translate3d(10px, 0, 0);
+      transform: translate3d(10px, 0, 0);
+    }
+  
+    90% {
+      -webkit-transform: translate3d(-5px, 0, 0);
+      transform: translate3d(-5px, 0, 0);
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  @keyframes bounceInRight {
+    from, 60%, 75%, 90%, to {
+      -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+  
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(3000px, 0, 0);
+      transform: translate3d(3000px, 0, 0);
+    }
+  
+    60% {
+      opacity: 1;
+      -webkit-transform: translate3d(-25px, 0, 0);
+      transform: translate3d(-25px, 0, 0);
+    }
+  
+    75% {
+      -webkit-transform: translate3d(10px, 0, 0);
+      transform: translate3d(10px, 0, 0);
+    }
+  
+    90% {
+      -webkit-transform: translate3d(-5px, 0, 0);
+      transform: translate3d(-5px, 0, 0);
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  .bounceInRight {
+    -webkit-animation-name: bounceInRight;
+    animation-name: bounceInRight;
+  }
+  .animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+/*****************************************************************/

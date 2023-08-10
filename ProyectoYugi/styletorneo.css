@@ -1,0 +1,41 @@
+body{
+    display: flex;
+}
+.izquierda{
+    width: 50%;
+    background-color: orange;
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+}
+.derecha{
+    width: 50%;
+    background-color: greenyellow;
+    display: flex;
+}
+.torneo, .botones_extra{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 2%;
+    padding: 5px;
+}
+.boton{
+    background-color: yellow;
+    border: 3px solid black;
+    width: 85%;
+    padding: 5px;
+    text-align: center;
+    font-size: 18px;
+}
+/**********************************************/
+.boton:hover{
+    background-color: darkgoldenrod;
+}
+.boton:active{
+    font-size: 16px;
+    transition: .1s;
+}
+/**************************************************/
+/**************************************************/

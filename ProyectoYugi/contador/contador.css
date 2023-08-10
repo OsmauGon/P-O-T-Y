@@ -1,0 +1,38 @@
+.contenedor{
+    /*width: 640px;
+    height: 280px;*/
+}
+.contador {
+    border: 3px solid black;
+    display: flex
+}
+.numero {
+    margin: auto;
+    padding: 0;
+    text-align: center;
+    font-size: 900%;
+}
+.contenedorcito{
+    background-color: red;
+    border: 10px solid ;
+    flex: 1;
+    height: 225px;
+}
+.contenedorcito:focus{
+    border-color: yellow;
+}
+.botones{
+    display: flex;
+        
+    justify-content: space-between;
+}
+.boton{
+background-color: darkgray;
+border: 5.5px groove gray;
+padding: 4px;
+}
+/****************************************************/
+.estado_activo {
+    border-color: yellow;
+}
+/****************************************************/
